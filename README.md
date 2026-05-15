@@ -1,59 +1,80 @@
 # projeto3PAYGAME
 
-🐍 PySnake
+PySnake Game 🐍
 
-PySnake é um jogo da cobrinha desenvolvido em Python utilizando a biblioteca Pygame. O objetivo do jogo é controlar a cobra, comer as frutas e crescer o máximo possível sem bater nas paredes ou no próprio corpo.
+Um jogo da cobrinha desenvolvido em Python com Pygame.
 
-📌 Funcionalidades
-Movimento da cobra
-Sistema de pontuação
-Crescimento da cobra ao comer frutas
-Colisão com paredes
-Colisão com o próprio corpo
-Interface simples e divertida
-🛠️ Tecnologias Utilizadas
-Python 3
+O objetivo é simples: coma o máximo de frutas possível sem colidir com as paredes ou com o próprio corpo.
+
+🚀 Sobre o Projeto
+
+PySnake foi criado para praticar lógica de programação e desenvolvimento de jogos utilizando Python.
+
+O projeto possui uma interface simples e mecânicas clássicas inspiradas no famoso jogo Snake.
+
+⚙️ Requisitos
+
+Antes de começar, você precisa ter instalado:
+
+Python 3.x
 Pygame
-📥 Instalação
-1. Instale o Python
+📦 Instalação
 
-Baixe o Python no site oficial:
+Clone o repositório:
 
-https://www.python.org/
+git clone https://github.com/seuusuario/pysnake.git
 
-2. Instale o Pygame
+Entre na pasta:
 
-Abra o terminal e execute:
+cd pysnake
+
+Instale as dependências:
 
 pip install pygame
-▶️ Como Executar
+▶️ Executando o Projeto
 
-No terminal, execute:
+Execute o arquivo principal:
 
-python pysnake.py
-🎮 Controles
-Tecla	Ação
-↑	Mover para cima
-↓	Mover para baixo
-←	Mover para esquerda
-→	Mover para direita
-📂 Estrutura Básica do Projeto
-PySnake/
+python main.py
+🎮 Jogabilidade
+Controle a cobra usando as setas do teclado
+Coma as frutas para aumentar a pontuação
+Evite colisões
+Tente alcançar o maior tamanho possível
+⌨️ Controles
+Comando	Função
+↑	Subir
+↓	Descer
+←	Esquerda
+→	Direita
+📁 Estrutura do Projeto
+pysnake/
 │
-├── pysnake.py
+├── main.py
+├── snake.py
+├── food.py
+├── settings.py
 ├── assets/
-│   ├── imagens/
-│   └── sons/
 └── README.md
-🧠 Conceitos Aprendidos
+📚 Objetivos de Aprendizado
 
-Este projeto ajuda no aprendizado de:
+Este projeto ajuda a praticar:
 
-Loops
-Condições
-Funções
-Listas
+Estruturas de repetição
+Programação orientada a objetos
+Manipulação de listas
 Eventos do teclado
-Colisão
-Desenvolvimento de jogos
+Renderização gráfica
+Colisão entre objetos
+Organização de projetos
+🖼️ Preview
 
+Adicione aqui imagens ou GIFs do jogo funcionando.
+
+💡 Melhorias Futuras
+Sistema de ranking
+Sons e músicas
+Menu inicial
+Níveis de dificuldade
+Pause no jogo
+Modo multiplayer
