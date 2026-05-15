@@ -109,6 +109,9 @@ Esse código:
 * cria uma janela
 * mantém ela aberta
 
+snake_demo ## 🎮 Demo  
+![Demo](dino_running.gif)
+
 ---
 
 ## O que você aprende fazendo PySnake
